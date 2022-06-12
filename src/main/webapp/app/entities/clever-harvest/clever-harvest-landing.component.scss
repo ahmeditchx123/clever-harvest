@@ -1,0 +1,174 @@
+.ch-content {
+  display: flex;
+  flex-direction: column;
+}
+.ch-yellow-area {
+  background: #f5f7dd;
+  width: 90%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.ch-harvest-to-mill {
+  display: flex;
+  flex-direction: row;
+}
+.hour-section {
+  width: 115px;
+  background: #e6f4e7;
+  height: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hours-number {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.hrs-word {
+  padding: 5px;
+}
+
+.ch-harvest-to-mill-description {
+  width: 80%;
+}
+
+
+.ch-paragraph {
+  font-size: 15px;
+  font-weight: 500;
+}
+.maps-section-container {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 98%;
+  border-radius: 20px;
+}
+agm-map {
+  height: 185px;
+}
+.maps-section {
+  width: 100%;
+  height: 20%;
+}
+
+.section-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tab-row {
+  width: 98%;
+  background: #E2F3E9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #808080;
+  border-radius: 10px;
+  padding: 10px;
+}
+.tab-row-yellow {
+  width: 98%;
+  background: #f5f7dd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #808080;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.graph-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.circular-graph {
+  width: 65%;
+  display: flex;
+  justify-content: flex-end;
+}
+.graph-explanation {
+  width: 35%;
+}
+
+.cercle-green {
+ width: 120px;
+  height: 120px;
+  background: #76c699;
+  border-radius: 60px;
+}
+
+.sample {
+  width: 20px;
+  height: 20px;
+  background: #76c699;
+}
+
+.harvest-log-card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.log-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 97%;
+  height: 155px;
+  display: flex;
+  flex-direction: row;
+}
+.log-card-color {
+  width: 2%;
+  border-radius: 10px 0 0 10px;
+  background: green;
+}
+
+.log-card-content {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+}
+
+.log-card-mil-time {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.score-sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: #DDD721;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.score-sticky-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.how-score {
+  width: 65%;
+}

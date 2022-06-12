@@ -1,0 +1,27 @@
+.ch-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.score-sticky-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background: #DDD721;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.score-description {
+  width: 65%;
+}
